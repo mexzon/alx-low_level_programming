@@ -1,19 +1,17 @@
-#include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
- * Return:0
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-char c[9] = "_putchar";
-int i = 0;
-while (i < 8)
-{
-_putchar(c[i]);
-i++;
-}
-_putchar('\n');
+
+printf("_putchar\n");
+
 return (0);
 }
+
